@@ -10,18 +10,6 @@ function checkIfOdd(number) {
     return number % 2 !== 0;
 }
 
-function checkIfPrime(number) {
-    if (number <= 1) {
-        return false;
-    }
-    for (let i = 2; i < number; i++) {
-        if (number % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
-
 function inefficientFunction(arr) {
     let sum = 0;
     let oddCount = 0;
